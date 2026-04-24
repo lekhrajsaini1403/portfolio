@@ -29,8 +29,8 @@ def seed():
     # --- Profile ---
     profile = Profile.objects.create(
         name="Lekhraj Saini",
-        title="PhD Research Scholar | Machine Learning & Computational Biology",
-        institution="Indian Institute of Technology Indore",
+        title="Research Scientest | Radar Meteorology",
+        institution="NESAC, DOS, GOI",
         department="Department of Computer Science & Engineering",
         bio="""ng at the intersection of Machine Learning, 
 Artificial Intelligence, and Computational Biology. My research focuses on developing novel 
