@@ -4,13 +4,13 @@ const TYPE_FILTERS = [
   { key: 'all', label: 'All' },
   { key: 'journal', label: 'Journal Articles' },
   { key: 'conference', label: 'Conference Papers' },
-  { key: 'preprint', label: 'Preprints' },
+  { key: 'book_chapter', label: 'Book Chapters' },
+  { key: 'thesis', label: 'Thesis' },
 ];
 
 const TYPE_CLASS = {
   journal: 'pub-type-journal',
   conference: 'pub-type-conference',
-  preprint: 'pub-type-preprint',
   book_chapter: 'pub-type-book_chapter',
   thesis: 'pub-type-thesis',
 };
