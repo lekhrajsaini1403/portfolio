@@ -91,15 +91,18 @@ export default function Hero({ profile, stats }) {
             <div className="hero-avatar-ring-2" />
             <div className="hero-avatar-ring" />
             <div className="hero-avatar">
-              <span className="hero-avatar-initials">{initials}</span>
+              <img src="/lekh.jpeg"
+                alt="lekh"
+                width="400"
+                height="300"></img>
             </div>
             <div className="hero-floating-tag hero-tag-1">
-              <i className="fas fa-flask"></i>
-              PhD Research Scholar
+              <i class="fa-solid fa-cloud-rain"></i>
+              Polar Meteorology
             </div>
             <div className="hero-floating-tag hero-tag-2">
-              <i className="fas fa-microchip"></i>
-              ML &amp; Bioinformatics
+              <i class="fa-solid fa-snowflake"></i>
+              Precipitation Microphysics
             </div>
           </div>
         </div>
